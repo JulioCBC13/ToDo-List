@@ -40,7 +40,7 @@ const App = () => {
   ])
 
   const addTodo = (title) => {
-    const lastId = todos.length ? todos [todos.lenght - 1 ].id : 1;
+    const lastId = todos.length > 0 ? todos [todos.lenght - 1 ].id : 1;
     
     const newTodo = {
       id: lastId + 1,
