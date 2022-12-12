@@ -6,8 +6,8 @@ import React from "react";
 const Title = () => {
 	
 		return (
-		  <div className="text-5xl ">
-			holis
+		  <div className="text-5xl font-anton font-bold tracking-widest">
+			Todo App
 		  </div>
 		)
 	  }
